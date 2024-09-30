@@ -23,9 +23,10 @@
   border: solid 2px rgb(70, 70, 70);
   border-radius: 10px;
   cursor: pointer;
-  transition: transform 1s;
+  transition: transform 0.7s;
   transform-style: preserve-3d;
   padding: 15px 0;
+  font-weight: 500;
 }
 
 .card-check {
@@ -33,7 +34,7 @@
 }
 
 .card::after {
-  content: 'Оборотная стороная 1-й карточки';
+  content: attr(data-back);
   position: absolute;
   inset: 0;
   display: flex;

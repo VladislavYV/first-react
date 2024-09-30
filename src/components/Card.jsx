@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function Card() {
+export function Card({front, back}) {
 
     const [checkCard, setCheckCard] = useState(false);
 
@@ -11,6 +11,6 @@ export function Card() {
     let className = `card ${checkCard ? 'card-check' : ''}`;
 
     return (
-        <div className={className} onClick={handleClick}>1-я карточка</div>
+        <div className={className} onClick={handleClick} data-back = {back} >{front}</div>
     );
 }

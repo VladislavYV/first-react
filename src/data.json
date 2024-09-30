@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "front": "apple",
+        "back": "яблоко"
+    },
+    {
+        "id": 2,
+        "front": "pineapple",
+        "back": "ананас"
+    },
+    {
+        "id": 3,
+        "front": "jeans",
+        "back": "джинсы"
+    },
+    {
+        "id": 4,
+        "front": "car",
+        "back": "машина"
+    },
+    {
+        "id": 5,
+        "front": "fire",
+        "back": "огонь"
+    },
+    {
+        "id": 6,
+        "front": "room",
+        "back": "комната"
+    },
+    {
+        "id": 7,
+        "front": "dog",
+        "back": "собака"
+    },
+    {
+        "id": 8,
+        "front": "cat",
+        "back": "кот"
+    },
+    {
+        "id": 9,
+        "front": "theater",
+        "back": "театр"
+    },
+    {
+        "id": 10,
+        "front": "fish",
+        "back": "рыба"
+    },
+    {
+        "id": 11,
+        "front": "train",
+        "back": "поезд"
+    }
+]
