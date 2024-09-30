@@ -4,7 +4,7 @@ export function Card() {
 
     const [checkCard, setCheckCard] = useState(false);
 
-    function handleClick () {
+    const handleClick = () => {
         setCheckCard(!checkCard);
     }
 
