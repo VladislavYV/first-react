@@ -1,3 +1,4 @@
+import './Card.css'
 import { useState } from "react";
 
 export function Card({front, back}) {

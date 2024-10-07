@@ -1,9 +1,10 @@
+import './Set.css'
 import { useState } from "react";
-import { Card } from "./Card";
+import { Card } from "../card/Card";
 
 export function Set() {
 
-    const cards = require('../data.json');
+    const cards = require('../../data.json');
     const [step, setStep] = useState(0);
 
     const handleNext = () => {
