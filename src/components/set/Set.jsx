@@ -1,8 +1,12 @@
 import './Set.css'
+import { useLocation, useParams } from 'react-router-dom';
 import { useState } from "react";
 import { Card } from "../card/Card";
 
 export function Set() {
+
+    const param = useParams();
+    console.log(param.id);
 
     const cards = require('../../data.json');
     const [step, setStep] = useState(0);

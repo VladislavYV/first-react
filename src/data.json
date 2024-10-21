@@ -2,56 +2,85 @@
     {
         "id": 1,
         "front": "apple",
-        "back": "яблоко"
+        "back": "яблоко",
+        "setName": "Fruit"
     },
     {
         "id": 2,
         "front": "pineapple",
-        "back": "ананас"
+        "back": "ананас",
+        "setName": "Fruit"
     },
     {
         "id": 3,
-        "front": "jeans",
-        "back": "джинсы"
+        "front": "earth",
+        "back": "Земля",
+        "setName": "Space"
     },
     {
         "id": 4,
-        "front": "car",
-        "back": "машина"
+        "front": "mars",
+        "back": "Марс",
+        "setName": "Space"
     },
     {
         "id": 5,
-        "front": "fire",
-        "back": "огонь"
+        "front": "lion",
+        "back": "лев",
+        "setName": "Animal"
     },
     {
         "id": 6,
-        "front": "room",
-        "back": "комната"
+        "front": "elephant",
+        "back": "Слон",
+        "setName": "Animal"
     },
     {
         "id": 7,
         "front": "dog",
-        "back": "собака"
+        "back": "собака",
+        "setName": "Animal"
     },
     {
         "id": 8,
         "front": "cat",
-        "back": "кот"
+        "back": "кот",
+        "setName": "Animal"
     },
     {
         "id": 9,
-        "front": "theater",
-        "back": "театр"
+        "front": "jupiter",
+        "back": "Юпитер",
+        "setName": "Space"
     },
     {
         "id": 10,
-        "front": "fish",
-        "back": "рыба"
+        "front": "sun",
+        "back": "солнце",
+        "setName": "Space"
     },
     {
         "id": 11,
-        "front": "train",
-        "back": "поезд"
+        "front": "blackhole",
+        "back": "Чёрная дыра",
+        "setName": "Space"
+    },
+    {
+        "id": 12,
+        "front": "orange",
+        "back": "Апельсин",
+        "setName": "Fruit"
+    },
+    {
+        "id": 13,
+        "front": "lemon",
+        "back": "Лемон",
+        "setName": "Fruit"
+    },
+    {
+        "id": 14,
+        "front": "leech",
+        "back": "Личи",
+        "setName": "Fruit"
     }
 ]
