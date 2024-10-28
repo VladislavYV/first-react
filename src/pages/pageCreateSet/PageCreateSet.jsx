@@ -1,11 +1,21 @@
-import { Header } from "../../components/header/Header"
-import "./PageCreateSet.css"
+import { Header } from "../../components/header/Header";
+import { Outlet, NavLink } from "react-router-dom";
+import "./PageCreateSet.css";
 
 export function PageCreateSet () {
     return (
         <div>
             <Header />
             <h2 className="title">Создание сета карточек</h2>
+            <nav className="links">
+                <NavLink to="createset" className={({isActive}) => (isActive ? 'link link--active':'link')}>
+                    Создать сет
+                </NavLink>
+                <NavLink to="createcard" className={({isActive}) => (isActive ? 'link link--active':'link')}>
+                    Создать карточку
+                </NavLink>
+            </nav>
+            <Outlet />
         </div>
     )
 }

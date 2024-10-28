@@ -4,3 +4,26 @@
     color: #fff;
     padding: 15px 0;
   }
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  height: 50px;
+  max-height: 100%;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.main-nav .link {
+  color: #fff;
+  border: #fff 3px solid;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.main-nav .link--active {
+  background-color: #fff;
+  color: rgb(0, 95, 90);
+}

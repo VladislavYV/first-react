@@ -4,11 +4,15 @@ import { useState } from "react";
 import { Card } from "../card/Card";
 
 export function Set() {
+    const location = useLocation();
+    const {set} = location.state;
 
     const param = useParams();
     console.log(param.id);
 
-    const cards = require('../../data.json');
+    const cards = require('../../data.json').filter((item) => {
+        return item.setName === set
+    });
     const [step, setStep] = useState(0);
 
     const handleNext = () => {
@@ -37,7 +41,7 @@ export function Set() {
                 <button
                     className="control-btn"
                     onClick={handlePrev}
-                    disabled={step == 0 ? true : false}
+                    disabled={step === 0 ? true : false}
                 >
                     «
                 </button>
@@ -47,7 +51,7 @@ export function Set() {
                 <button
                     className="control-btn"
                     onClick={handleNext}
-                    disabled={step == cards.length - 1 ? true : false}
+                    disabled={step === cards.length - 1 ? true : false}
                 >
                     »
                 </button>

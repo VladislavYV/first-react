@@ -5,16 +5,16 @@ import "./PageSelectSet.css";
 export function PageSelectSet() {
     const cards = require("../../data.json"); //Выбор неповторяющихся названий сетов
     const sets = cards.reduce(
-        (acc, item) => {
-            if (acc.map[item.setName])
+        (acc, item) => { //Перебор каждой карточки
+            if (acc.obj[item.setName])
                 return acc;
-            acc.map[item.setName] = true;
+            acc.obj[item.setName] = true;
             acc.sets.push(item.setName);
             return acc;
         },
         {
-            map: {},
-            sets: [],
+            obj: {}, //Проверяет на наличие: Fruit:true, Space:true
+            sets: [], //Fruit, Space
         }
     ).sets.map((item, index) => ( // Перебор названий
         <BtnSet key={index} name={item} id={index} /> // Создание кнопок
